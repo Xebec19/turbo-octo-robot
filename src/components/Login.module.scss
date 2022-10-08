@@ -1,0 +1,8 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1rem;
+    img{
+        width: 100%;
+    }
+}

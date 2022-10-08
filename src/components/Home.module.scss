@@ -1,28 +1,23 @@
-@import '../global.scss';
+@import "../global.scss";
 
-.center{
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
+.center {
+  display: flex;
+  justify-content: center;
 }
 
-.title{
-    color: $textColor1;
-    font-weight: 400;
-    text-align: center;
+.title {
+  text-align: center;
 }
 
-.content{
-    color: $textColor2;
-    font-weight: 600;
-    padding: 4rem;
+.content {
+  padding: 4rem;
 }
 
-.gridContainer{
-    display: grid;
-    padding: 1rem;
-    grid-template-columns: auto auto;
-    img{
-        width: 100%;
-    }
+.gridContainer {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: auto auto;
+  img {
+    width: 100%;
+  }
 }
