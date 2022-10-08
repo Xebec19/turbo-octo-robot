@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import { NotFound } from "./components/NotFound";
 import LoadingSpinner from "./components/UI/LoadingSpinner";
 import Navbar from "./components/UI/Navbar";
-const Login = React.lazy(() => import("./components/Login"));
+const Login = React.lazy(() => import("./components/Login/LoginLayout"));
 
 function App() {
   return (

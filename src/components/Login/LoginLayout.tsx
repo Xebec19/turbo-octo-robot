@@ -1,7 +1,8 @@
-import styles from './Login.module.scss';
-import image from '../assets/undraw_secure_login_pdn4.png';
-import { Box, Card, CardContent, Typography, CardActions, Button } from '@mui/material'
-import { ButtonElm } from './UI/ButtonElm';
+import styles from './LoginLayout.module.scss';
+import image from '../../assets/undraw_secure_login_pdn4.png';
+import { Box, Card, CardContent, CardActions } from '@mui/material'
+import { ButtonElm } from '../UI/ButtonElm';
+import { H4Text } from '../UI/H4Text';
 
 const Login = () => {
     return (<div className={styles.gridContainer}>
@@ -9,7 +10,7 @@ const Login = () => {
         <Box>
             <Card>
                 <CardContent>
-                    <Typography gutterBottom variant='h4'>Login</Typography>
+                    <H4Text>Login</H4Text>
                 </CardContent>
                 <CardActions>
                     <ButtonElm>Submit</ButtonElm>
