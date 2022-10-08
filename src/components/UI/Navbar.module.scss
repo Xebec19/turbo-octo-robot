@@ -1,0 +1,30 @@
+@import '../../global.scss';
+
+.navband{
+    width: 100%;
+    background-color: $background0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoImg{
+    margin: 1rem 2rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    li{
+        margin-right: 25px;
+        color: $color1;
+    }
+    li:hover{
+        color: $background1;
+        cursor: pointer;
+    }
+}

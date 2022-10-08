@@ -1,4 +1,4 @@
-import style from "./LoadingSpinner.module.css";
+import style from "./LoadingSpinner.module.scss";
 
 const LoadingSpinner: React.FC<{className:string}> = (props) => {
   return (
