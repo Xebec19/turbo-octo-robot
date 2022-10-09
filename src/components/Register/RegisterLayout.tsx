@@ -1,21 +1,25 @@
 import styles from "./RegisterLayout.module.scss";
 import image from "../../assets/undraw_Welcoming_re_x0qo.png";
-import { Box, Card, CardContent, CardActions } from "@mui/material";
-import { ButtonElm } from "../UI/ButtonElm";
+import { Box, Card, CardContent, CardActions, Input } from "@mui/material";
+import { ButtonMid } from "../UI/ButtonMid";
 import { ColumnLayout } from "../UI/ColumnLayout";
 import { H4Text } from "../UI/H4Text";
 import { InputElm } from "../UI/InputElm";
-import React from "react";
+import React, { useRef } from "react";
 
 const RegisterLayout = () => {
+  const emailInputRef = useRef<HTMLInputElement>(null);
+
   return (
     <div className={styles.gridContainer}>
-      <img src={image} alt="login" />
+      <img src={image} alt="register" />
       <Box>
         <Card>
           <CardContent>
-            <H4Text>Login</H4Text>
+            <H4Text>Register</H4Text>
             <ColumnLayout>
+              <InputElm label="firstName" type="text" required ref={emailInputRef} />
+              <InputElm label="lastName" type="text"/>
               <InputElm label="Email" type="text" required />
               <InputElm
                 label="Password"
@@ -26,8 +30,8 @@ const RegisterLayout = () => {
             </ColumnLayout>
           </CardContent>
           <CardActions>
-            <ButtonElm>Submit</ButtonElm>
-            <ButtonElm>Register</ButtonElm>
+            <ButtonMid>Submit</ButtonMid>
+            <ButtonMid>Register</ButtonMid>
           </CardActions>
         </Card>
       </Box>

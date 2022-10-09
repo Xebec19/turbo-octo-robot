@@ -1,11 +1,11 @@
 import styles from "./LoginLayout.module.scss";
 import image from "../../assets/undraw_secure_login_pdn4.png";
 import { Box, Card, CardContent, CardActions } from "@mui/material";
-import { ButtonElm } from "../UI/ButtonElm";
+import { ButtonMid } from "../UI/ButtonMid";
 import { H4Text } from "../UI/H4Text";
 import { ColumnLayout } from "../UI/ColumnLayout";
 import { InputElm } from "../UI/InputElm";
-import React from 'react';
+import React from "react";
 
 const Login = () => {
   return (
@@ -26,8 +26,8 @@ const Login = () => {
             </ColumnLayout>
           </CardContent>
           <CardActions>
-            <ButtonElm>Submit</ButtonElm>
-            <ButtonElm>Register</ButtonElm>
+            <ButtonMid>Submit</ButtonMid>
+            <ButtonMid>Register</ButtonMid>
           </CardActions>
         </Card>
       </Box>

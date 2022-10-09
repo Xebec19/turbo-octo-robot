@@ -25,6 +25,13 @@ ul {
   }
   li:hover {
     color: $background1;
-    cursor: pointer;
+    cursor: pointer; 
+  }
+  a{
+    color: $color1;
+    text-decoration: none;
+  }
+  a:hover{
+    color: $background1;
   }
 }
