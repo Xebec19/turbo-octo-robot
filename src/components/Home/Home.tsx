@@ -1,6 +1,6 @@
 import React,{ Fragment } from "react";
 import styles from "./Home.module.scss";
-import image from "../assets/igor-savelev-HttaDlrArVc-unsplash.jpg";
+import image from "../../assets/igor-savelev-HttaDlrArVc-unsplash.jpg";
 import { Typography } from "@mui/material";
 
 const Home = () => {

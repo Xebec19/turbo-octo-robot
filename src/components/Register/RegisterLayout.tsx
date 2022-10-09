@@ -1,13 +1,13 @@
-import styles from "./LoginLayout.module.scss";
-import image from "../../assets/undraw_secure_login_pdn4.png";
+import styles from "./RegisterLayout.module.scss";
+import image from "../../assets/undraw_Welcoming_re_x0qo.png";
 import { Box, Card, CardContent, CardActions } from "@mui/material";
 import { ButtonElm } from "../UI/ButtonElm";
-import { H4Text } from "../UI/H4Text";
 import { ColumnLayout } from "../UI/ColumnLayout";
+import { H4Text } from "../UI/H4Text";
 import { InputElm } from "../UI/InputElm";
-import React from 'react';
+import React from "react";
 
-const Login = () => {
+const RegisterLayout = () => {
   return (
     <div className={styles.gridContainer}>
       <img src={image} alt="login" />
@@ -35,4 +35,4 @@ const Login = () => {
   );
 };
 
-export default React.memo(Login);
+export default React.memo(RegisterLayout);
